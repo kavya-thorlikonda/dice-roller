@@ -1,0 +1,76 @@
+/* Reset default spacing */
+body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(101, 84, 61);
+    font-family: Arial, sans-serif;
+}
+
+/* Card container */
+#dicediv{
+    background-color: antiquewhite;;
+    padding: 40px 50px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+/* Heading */
+h1{
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Label */
+label{
+    font-size: 1.2em;
+    margin-right: 10px;
+}
+
+/* Input box */
+#Dice{
+    text-align: center;
+    font-size: 1.2em;
+    border-radius: 8px;
+    border: 1px solid #ab5050;
+    padding: 6px;
+    width: 70px;
+    margin-right: 10px;
+}
+
+/* Button styling */
+button{
+    font-size: 1.2em;
+    border-radius: 8px;
+    border: none;
+    padding: 8px 15px;
+    background-color: rgb(72, 58, 52);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover{
+    background-color: rgb(109, 85, 74);
+    transform: scale(1.05);
+}
+
+/* Result text */
+#resultValue{
+    font-size: 1.5em;
+    margin-top: 20px;
+    color: #333;
+}
+
+/* Dice images */
+#resultImage{
+    margin-top: 15px;
+}
+
+#resultImage img{
+    width: 90px;
+    margin: 5px;
+}
