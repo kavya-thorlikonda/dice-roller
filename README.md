@@ -21,6 +21,7 @@ This project generates random dice values and displays the corresponding dice im
 4. Click **Roll Dice** to see the results.
 
 ## Project Structure
+
 dice-roller
 ├── index.html
 ├── style.css
@@ -36,3 +37,4 @@ dice-roller
 
 ## Author
 - Kavya Thorlikonda
+
